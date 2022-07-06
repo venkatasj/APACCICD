@@ -13,6 +13,7 @@
     <module>code/routines</module>
     <module>jobs/process/demo/onboardingdemojob_0.1</module>
     <module>jobs/process/test_0.1</module>
+    <module>jobs/process/testone_0.1</module>
   </modules>
   <properties>
     <talend.project.name>APACCICD</talend.project.name>
