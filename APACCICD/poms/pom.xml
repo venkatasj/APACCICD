@@ -8,6 +8,10 @@
   <packaging>pom</packaging>
   <name>APACCICD Codes Master</name>
   <url>http://www.talend.org/</url>
+  <modules>
+    <module>code/beans</module>
+    <module>code/routines</module>
+  </modules>
   <properties>
     <signer.version>7.3.3</signer.version>
     <talend.project.name>APACCICD</talend.project.name>
