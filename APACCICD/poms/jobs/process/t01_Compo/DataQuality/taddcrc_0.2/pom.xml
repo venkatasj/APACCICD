@@ -10,8 +10,8 @@
   </parent>
   <groupId>org.example.apaccicd.job</groupId>
   <artifactId>tAddCRC</artifactId>
-  <version>0.2.0</version>
-  <name>APACCICD tAddCRC-0.2.0 (0.2,Job Designs)</name>
+  <version>7.3.1</version>
+  <name>APACCICD tAddCRC-7.3.1 (0.2,Job Designs)</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
