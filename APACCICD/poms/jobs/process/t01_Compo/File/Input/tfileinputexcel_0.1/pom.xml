@@ -5,13 +5,13 @@
   <parent>
     <groupId>org.example.apaccicd</groupId>
     <artifactId>code.Master</artifactId>
-    <version>7.3.1</version>
+    <version>7.3.1-SNAPSHOT</version>
     <relativePath>../../../../../../</relativePath>
   </parent>
   <groupId>org.example.apaccicd.job</groupId>
   <artifactId>tFileInputExcel</artifactId>
-  <version>7.3.1</version>
-  <name>APACCICD tFileInputExcel-7.3.1 (0.1,Job Designs)</name>
+  <version>0.1.0-SNAPSHOT</version>
+  <name>APACCICD tFileInputExcel-0.1.0-SNAPSHOT (0.1,Job Designs)</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
@@ -20,7 +20,7 @@
     <talend.job.version>0.1</talend.job.version>
     <talend.project.name.lowercase>apaccicd</talend.project.name.lowercase>
     <talend.job.path>apaccicd</talend.job.path>
-    <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
+    <project.distribution-management.repository.id>${project.distributionManagement.snapshotRepository.id}</project.distribution-management.repository.id>
     <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
     <talend.project.name>APACCICD</talend.project.name>
     <talend.product.version>7.3.1.20220513_0748-patch</talend.product.version>
@@ -38,7 +38,7 @@
     <talend.project.id>0</talend.project.id>
     <talend.job.folder>t01_compo/file/input/</talend.job.folder>
     <talend.job.framework></talend.job.framework>
-    <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
+    <project.distribution-management.repository.url>${project.distributionManagement.snapshotRepository.url}</project.distribution-management.repository.url>
     <talend.job.type>Standard</talend.job.type>
   </properties>
   <dependencies>
@@ -243,7 +243,7 @@
     <dependency>
       <groupId>org.example.apaccicd.code</groupId>
       <artifactId>routines</artifactId>
-      <version>7.3.1</version>
+      <version>7.3.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
   <build>
